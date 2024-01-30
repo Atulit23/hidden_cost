@@ -1,6 +1,1 @@
----
-title: ocr_model
-app_file: app.py
-sdk: gradio
-sdk_version: 3.44.4
----
+To check during the checkout process if any hidden cost is there we have employed OCR technology to extract all the text from the url of a screenshot of the checkout process and in the text returned by the model we look for certain hidden costs and inform the user about same. Currently it could not be integrated because of some issue with deployment once its resolved will integrate this.
