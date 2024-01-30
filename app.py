@@ -27,7 +27,7 @@ def index(url):
     print(txts)
 
     output_dict = {"texts": txts, "boxes": boxes, "scores": scores}
-    output_json = json.dumps(output_dict)  # Convert to JSON string
+    output_json = json.dumps(output_dict) 
 
     return output_json
 
