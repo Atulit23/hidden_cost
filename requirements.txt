@@ -1,0 +1,9 @@
+common
+paddlepaddle
+paddleocr
+opencv-python
+Shapely
+requests
+numpy
+pillow
+gradio
